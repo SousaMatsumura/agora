@@ -66,27 +66,19 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'projectsSidebar',
           position: 'left',
           label: 'Projects',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'peopleSidebar',
           position: 'left',
           label: 'People',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          type: 'docSidebar',
-          sidebarId: 'contactSidebar',
           position: 'left',
           label: 'Contact',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'aboutSidebar',
           position: 'left',
           label: 'About',
         },
