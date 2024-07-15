@@ -62,16 +62,34 @@ const config: Config = {
       title: 'Ágora Lab',
       logo: {
         alt: 'Ágora Lab',
-        src: 'img/logo.enc',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'projectsSidebar',
           position: 'left',
           label: 'Projects',
         },
-        {to: '/blog', label: 'Blogg', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'peopleSidebar',
+          position: 'left',
+          label: 'People',
+        },
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'contactSidebar',
+          position: 'left',
+          label: 'Contact',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'aboutSidebar',
+          position: 'left',
+          label: 'About',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
