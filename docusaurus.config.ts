@@ -66,10 +66,12 @@ const config: Config = {
       },
       items: [
         {
+          to: '',
           position: 'left',
           label: 'Projects',
         },
         {
+          to: '',
           position: 'left',
           label: 'People',
         },
@@ -79,6 +81,7 @@ const config: Config = {
           label: 'Contact',
         },
         {
+          to: '',
           position: 'left',
           label: 'About',
         },
