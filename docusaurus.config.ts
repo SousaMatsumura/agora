@@ -66,22 +66,23 @@ const config: Config = {
       },
       items: [
         {
-          to: '',
+          to: '/blog',
           position: 'left',
           label: 'Projects',
         },
         {
-          to: '',
+          to: '/blog',
           position: 'left',
           label: 'People',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
+          to: '/blog',
           position: 'left',
           label: 'Contact',
         },
         {
-          to: '',
+          to: '/blog',
           position: 'left',
           label: 'About',
         },
